@@ -1,0 +1,14 @@
+@QCIIntroLecture
+a) timeline
+a1) feynman gave a talk that said that regular computers cant simulate quantum mechanics
+a2) deutsch-Josza algorithm said that there are things that you cant do on a regular algo
+a3) shores solves large umbers problem
+a3a) can factor in a reasonable amount of time
+a4) IBM was making qbits
+a5) after that work was just making a system
+a6) reggeti qci startup
+a7) ibm vs google arms race to the first one
+a8) regetti allows you to build and test with quantum stuff
+a9) google claims that theyre going to have a 49 qbit machine
+b) there arent enough resources for people who want to build with quantum computers
+b1) thats the goal of this program

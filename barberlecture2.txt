@@ -1,0 +1,59 @@
+a) what makes projects successful
+a1) its tied to requirments
+@barberlecture2
+a2) laws of IT Software
+a2a) Software is like entropy It is always difficult to grasp weighs nothing and it always increases
+a2b) Inside every large system is a small system struggling to get out
+a2b1) dividing software up into smaller software is important
+a2c) Work expands to fill the time available for its completion
+a2d) How does a project get 1 year late 1 day at a time
+a2e) The first 90% of code accounts for the first 90% of time the remaining 10% accounts for the other 90%
+a2f) 80% of the bugs stem from 20% of th ecode
+a2g) programing languages doesnt make it easier to write good code
+a3) Context
+a3a) requirements are dev before system start
+a3b) implementation occurs years after the system is designed
+a3c) delivering yesterdays solutions tomorrow
+a3d) shortening the large projects into smaller peices is key
+#there will probably be questions on project timing
+# there will probably be questions on timing
+a4) release
+a4a) release implies date
+a5) procurement
+a5a) buying stuff from 3rd parties to put their software in your software
+a5b) there are advantages and disadvantages to buying
+a5c) there are a lot of t and cs
+a5d) attorneys are expensive
+? does barber have personal experience in buying
+# dont get burned on a purchase. do you really want to be in business with these people
+a6) IT project outcomes
+a6a) extermely low success rate
+a6b) highes challenged rate
+a6c) failure was lower than I expect
+a6d) the likelyhood for failure goes up as the size goes up
+a6d1) there are a lot more moving parts and its a lot more expensive and more complex
+#customers buy
+#users use
+a7) how is success defined
+a7a) functionality -> what is it suppsoed to do
+a7b) quality -> adjectives fast sheik beautiful
+a7c) budget -> how expensive
+a7d) Schedule -> the time of delivery
+a7e) you should make sure you have a good conception of your requirements and their indepenent importance
+# the source of all conflict is mismatched expectations
+a8) how does someone test requirements
+a8a) thats the purpose of this class
+a8b) how do i resolve conflict
+a8c) how do i make sure im tracking change
+a8d) how do i know that im drawing the right conclusions from all the right people
+a9) typical risk
+a9a) if you hear someone say I gave you exactly what you asked for
+a9b) I know that i think i know what your requirements are 
+a9c) Look theres just not enough time for requirements
+a9d) i dont sell the requirements
+a9e) obvious requirements need to be stated
+a9f) the risk of the customers expectation not matching program quality
+a9g) never ending requirements story
+a9g1) the risk of nessesary and required change -> there is never a sign off
+# make sure you get a sign off ->
+a9h) cant you just read my mind

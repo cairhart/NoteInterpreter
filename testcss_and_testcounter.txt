@@ -1,0 +1,8 @@
+a) these are my notes for a class
+b) this class is very important
+c) check out how good my notes are
+d) they are really good
+d1) I can even make subpoints
+d2) and understand the text better
+d3) this is starting to get useful
+@testcss_and_testcounter

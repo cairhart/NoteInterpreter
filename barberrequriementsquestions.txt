@@ -1,0 +1,82 @@
+@barberrequriementsquestions
+a) Whats your current procedure, how do you solve the problem of registration right now
+a1) I dont register. I just advice students who need to register. Studens have to figure out what courses theyw ant to register for. they need to have prereqs when registration hope no bars confirm registration 
+b) waht kind of devices does this system need to support
+b1) android ios all os all browsers
+c) how do we go about prioritizing who gets to register first
+c1) by credit hours
+d) all the comunication should happen on a secure rotocol no http https all data transfer needs to happen on a secure protocol 
+e) is there a specific weeb browser that we shouldnt use
+e1) no support all
+f) what are some of the assumptions about the users what data do we have about the user
+f1) we need to have the course number unique number- dictaies course and meeting time the way I log in as a student is through my eid and password
+g) are we designing a front end interface for this system or the backend
+g1) front end backend and legacy system integration
+h) budget
+h1) we were planning to roll out the system next semester 5 million dollars
+i) there is an online system
+i1) i would like to know more about what the students goals are career wise. automatic prereq check. automated system for signatures. 
+j) where is the course data information
+j1) all the data will be stored in our local cloud. the data will be avaiable from the university through the website
+k) ow many total students are expected to register
+k1) 25000 concureent users at any time in the process
+l) language
+l1)  fully up to us. legacy is avaiable through apis
+m)  what are all the ways a student shoudl be able to look up a course
+m1) course title part of course tilte course number by department by teacher by career goals
+o) automatic student rejection without prereqs
+o1) i want a note to the student and a ntoe to me that the student tried to register
+p) would you like us to implement a visual course planner
+p1) visual work flow is very good
+q) backdoor
+q1) no backdoors whatsoever absolutely not
+r) are students able to register for courses outside fo their department
+r1) no let them see all the courses but show expand electives
+s) are there any disabilities
+s1) hearing impaired sight impared color blind
+t) hwo do we inform students if they get off waitlists 
+u) style sheet
+u1) ut has a style sheet we use burnt orange as our ut style sheets we arent just limited that  and font
+v) what must a system prompt a user to do after registration closes. should the system prompt the user do once the registration is complete
+v1) my course schedle should come up and my bill
+w) what aditional systems are needed to moniter the integrity of the system
+w1) we should build a dashboard that gives the overall health of the system.
+x) what actions should be available to the students but not the advisors
+x1) aproval sign offs. changes to grades. teachers can change record
+y) should students be able to view the courses before registration starts
+y1) they should be able to use it as a planning system build a course schedule for their 4 years
+z) what is the security level of the course catalog and the students registration. how much data should we release to 3rd party websites
+z1) no data avaiability to 3rd party websites  teachers should be able to look at a students data
+aa) deployment deadlines?
+aa1) administwration wants to sign off december 15th
+ab) how is tuition calculated
+ab1) different rate for instate vs out of state different for grads vs undergrads fees different per departments
+ac) 1 million dollars 
+ad) I will measure the sucess by looking up stuff answers rules for the students. minimal time to advise students
+ae) we dont want waitlists
+af) is there a limit on the number of hours a student can take - 18 hours
+ag) add drop should exist and we should have 500 oncurent requrests
+ah) we should impletment parking bars payment bars health services bar academic bar
+ai) how long do you want us to keep the data where to store it-> all the data willl be stored in our local cloud and should be easily available for 5 years then archived
+aj) allow the system to draft initial interests. allows conflicts to update. register aprovals and esigs. they register for the system. 
+ak) every 60 seconds the data needs to be updated to the user
+al) what is the minimu functionality you want to see by the prtoype
+am) career course planning signnoff from adviser bars registration security
+an) how do you plan on expanding storage-> how to maintain access seeds -> aws s3
+ao) how often do we authenticate -> authentication administration authorization
+ap) how do we assign classrooms -> asingment will be made by a faculty member with member support
+aq) will the system support the current eid and password -> yes inteface with the curent system
+ar) vpn / ut network support
+as) registration and advisements should hapen year round withuptake around reistaraton time
+at) will we be managing the system -> we have support engineers byt we wil be managing it
+au) how should the user manage scheduling conflicts-> the student should try to look for a current non conflicting class
+av) how wil the system handle credit transfers -> through the registrar system
+aw) timeout authentication -> 15 minute insactivity -> are there others we should take into account -> faculty, department chairs, graduate advisors
+ax) aws fees are seperate 
+ay) special cases to credit hours deciding priority -> sports people / graduation that semester
+b`) reuse existing ris stuff
+ba) we are presenting the data to the people
+bb) why do we need a new system -> planning and automation of aprovals prereq checking why not just patch the curent system
+bc) what if the student doesnt pay fees on time? not our job
+bd) present sytem only supports 10000 users we want the request processing time to be faster
+be) no 3rd party integration

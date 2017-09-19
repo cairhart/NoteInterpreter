@@ -1,7 +1,10 @@
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
+import javafx.scene.effect.DropShadow;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -37,10 +40,15 @@ public class InterpreterController extends Application{
 	
     @FXML
     private TextArea QuestionsArea;
+    
+    @FXML
+    private Button load;
 
     @FXML
     private AnchorPane Comments;
 
+    @FXML
+    private Button save;
     @FXML
     private AnchorPane Questions;
 
@@ -140,7 +148,14 @@ public class InterpreterController extends Application{
     			}
     		}
     		else{
-    			result+= lets[i];
+    			if(i%2 == 0){
+    				int s = Integer.parseInt(lets[i]);
+    				r = NoteNode.getString(s);
+    				result+= r;
+    			}
+    			else{
+    				result += String.valueOf(Integer.parseInt(lets[i]));
+    			}
     		}
     	}
     	return result;
@@ -155,6 +170,30 @@ public class InterpreterController extends Application{
 				String s = CodeIn.getText();
 				if(s.length() > 3 && newValue.equals(oldValue + "\n")){
 					processString(s);
+				}
+				if(s.length() > 3 && newValue.equals(oldValue + "\t")){
+					if(s.substring(s.length()-3).equals(") \t")){
+				    	String result = "";
+				    	String r;
+						for(int i = 0; i < prevlets.length; i++){
+			    			if(i%2 == 0){
+			    				int see = Integer.parseInt(prevlets[i]);
+			    				r = NoteNode.getString(see);
+			    				result+= r;
+			    			}
+			    			else{
+			    				result += String.valueOf(Integer.parseInt(prevlets[i]));
+			    			}
+				    	}
+						if(prevlets.length%2 == 0){
+							result+="a";
+						}
+						else{
+							result+="1";
+						}
+						String current = CodeIn.getText();
+						CodeIn.setText(current.substring(0,current.lastIndexOf('\n'))+"\n"+result+") ");
+					}
 				}
 			}
 			
@@ -265,7 +304,6 @@ public class InterpreterController extends Application{
     	
     	
     }
-
 }
 
 class NoteNode{

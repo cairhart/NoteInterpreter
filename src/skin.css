@@ -1,0 +1,34 @@
+/* 
+    Document   : controlStyle1
+*/
+
+.root{
+    -fx-base: #2F4F4F;
+    -fx-background: #2F4F4F;
+    -fx-focus-color: #2F4F4F;
+}
+
+.button{
+    -fx-text-fill: #708090;
+    -fx-background-color: #2F4F4F;
+    -fx-border-color: #708090;
+    -fx-border-width: 3;
+    -fx-opacity: .3;
+}
+
+.text-area {
+    text-area-background: #C0C0C0 ;
+}
+
+.text-area .content {
+    -fx-background-color: text-area-background ;
+    -fx-text-fill: #708090;
+}
+
+.button:hover{
+	-fx-text-fill: #708090;
+    -fx-background-color: #2F4F4F;
+    -fx-border-color: #708090;
+    -fx-border-width: 3;
+    -fx-opacity: 1;
+	}

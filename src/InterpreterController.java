@@ -94,6 +94,9 @@ public class InterpreterController extends Application{
 		else if(str.length() != 0 && firstword.charAt(0) == '@'){
 			saveName = firstword.substring(1);
 		}
+		else if(str.length() != 0 && firstword.charAt(0) == '*'){
+			CodeIn.appendText("Are you refering to @barberlecture2");
+		}
 		else if(firstword.length() >= 1 && firstword.charAt(firstword.length()-1) == ')'){
 			String[] location = ParseLetters(firstword);
 			for(int i = 0; i < location.length; i++){

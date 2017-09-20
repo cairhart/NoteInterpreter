@@ -1,0 +1,34 @@
+@devdatalecture5
+a) servlets and threading
+b) a1) a serlet container creates a single instance of servlet
+a2) a2) multiple threads can be active ina serlet service method
+a3) a3) servlet container does not synch accesss
+a4) a4) it is up to the app dev to synch access
+a5) a4a) ex run test thread servlet
+a4b) a4b) run test servlet.sh
+a4c) a4c) the web container can understand java programs
+a4d) a5) the standlalone web server might not understand java
+a6) a6) tomcat is a web server and an application container
+a7) a7) in order for the container to call the serlet it must first be instantiated
+a8) a8) a servlet is not going to be synchronized by the container
+b) serlet perameters sessions
+b1) why are perameters needed
+b2) the part of the resource url which we provide with a questionmark at the end
+b3) anything that starts with question mark is called a query string
+b4) every perameter has a certain name and value
+b5) key = value
+b6) multiple perams are seperated by &
+b7) to get the value from the url query string
+b8) and the request url
+b9) perameter are sent with a request bod
+b10) if you want to retrieve a subset of the resources
+b11) you have to just get a subset of the resources
+c) sessions
+c1) use a client id
+c2) or a cookie
+c3) 8=====D~
+c4) hello
+c5) it makes it more fluid
+c5a) a subpoint
+* software decay
+Are you refering to @barberlecture2
